@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+    <addon id="repository.testrepo" name="[COLOR aqua]Test Repo[/COLOR]" version="0.0.1" provider-name="My Test Repo">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="[COLOR aqua]Test Repo[/COLOR]">
+            <info compressed="false">https://raw.githubusercontent.com/tiger246/testrepo/master/__zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/tiger246/testrepo/master/__zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/tiger246/testrepo/master/__zips/</datadir>
+            <hashes>false</hashes>
+			<dir>
+                <info compressed="false">https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/</datadir>
+                <hashes>false</hashes>
+           </dir>
+           <dir>
+               <info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
+               <checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
+               <datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
+			   <hashes>false</hashes>
+          </dir>
+          <dir>
+              <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+              <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+              <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+			  <hashes>false</hashes>
+         </dir>
+         <dir>
+             <info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+             <checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+             <datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+			 <hashes>false</hashes>
+         </dir>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>My Official Test Repository</summary>
+            <description>Test Repository</description>
+            <platform>all</platform>
+            <genre>movies,usa</genre>
+        </extension>
+    </addon>
